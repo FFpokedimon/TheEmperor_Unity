@@ -1,0 +1,348 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "BitpackersASMDEF/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "EmoCompressUtilsASMDEF": "1.0.0",
+          "HalfFloatASMDEF": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BitpackersASMDEF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BitpackersASMDEF.dll": {}
+        }
+      },
+      "EmoCompressUtilsASMDEF/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/EmoCompressUtilsASMDEF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmoCompressUtilsASMDEF.dll": {}
+        }
+      },
+      "HalfFloatASMDEF/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/HalfFloatASMDEF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HalfFloatASMDEF.dll": {}
+        }
+      },
+      "PhotonChat/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/PhotonChat.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonChat.dll": {}
+        }
+      },
+      "PhotonRealtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/PhotonRealtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonRealtime.dll": {}
+        }
+      },
+      "PhotonUnityNetworking/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonRealtime": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotonUnityNetworking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonUnityNetworking.dll": {}
+        }
+      },
+      "PhotonUnityNetworking.Demos/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonRealtime": "1.0.0",
+          "PhotonUnityNetworking": "1.0.0",
+          "PhotonUnityNetworking.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotonUnityNetworking.Demos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonUnityNetworking.Demos.dll": {}
+        }
+      },
+      "PhotonUnityNetworking.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonRealtime": "1.0.0",
+          "PhotonUnityNetworking": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotonUnityNetworking.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonUnityNetworking.Editor.dll": {}
+        }
+      },
+      "PhotonUnityNetworking.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonRealtime": "1.0.0",
+          "PhotonUnityNetworking": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotonUnityNetworking.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonUnityNetworking.Utilities.dll": {}
+        }
+      },
+      "PhotonUnityNetworking.Utilities.Culling.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonUnityNetworking.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotonUnityNetworking.Utilities.Culling.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonUnityNetworking.Utilities.Culling.Editor.dll": {}
+        }
+      },
+      "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonRealtime": "1.0.0",
+          "PhotonUnityNetworking": "1.0.0",
+          "PhotonUnityNetworking.Editor": "1.0.0",
+          "PhotonUnityNetworking.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll": {}
+        }
+      },
+      "PunDemos.DemoHubEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonRealtime": "1.0.0",
+          "PhotonUnityNetworking": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PunDemos.DemoHubEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PunDemos.DemoHubEditor.dll": {}
+        }
+      },
+      "PunDemos.DemoSlotcarEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PhotonUnityNetworking.Demos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PunDemos.DemoSlotcarEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PunDemos.DemoSlotcarEditor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BitpackersASMDEF/1.0.0": {
+      "type": "project",
+      "path": "BitpackersASMDEF.csproj",
+      "msbuildProject": "BitpackersASMDEF.csproj"
+    },
+    "EmoCompressUtilsASMDEF/1.0.0": {
+      "type": "project",
+      "path": "EmoCompressUtilsASMDEF.csproj",
+      "msbuildProject": "EmoCompressUtilsASMDEF.csproj"
+    },
+    "HalfFloatASMDEF/1.0.0": {
+      "type": "project",
+      "path": "HalfFloatASMDEF.csproj",
+      "msbuildProject": "HalfFloatASMDEF.csproj"
+    },
+    "PhotonChat/1.0.0": {
+      "type": "project",
+      "path": "PhotonChat.csproj",
+      "msbuildProject": "PhotonChat.csproj"
+    },
+    "PhotonRealtime/1.0.0": {
+      "type": "project",
+      "path": "PhotonRealtime.csproj",
+      "msbuildProject": "PhotonRealtime.csproj"
+    },
+    "PhotonUnityNetworking/1.0.0": {
+      "type": "project",
+      "path": "PhotonUnityNetworking.csproj",
+      "msbuildProject": "PhotonUnityNetworking.csproj"
+    },
+    "PhotonUnityNetworking.Demos/1.0.0": {
+      "type": "project",
+      "path": "PhotonUnityNetworking.Demos.csproj",
+      "msbuildProject": "PhotonUnityNetworking.Demos.csproj"
+    },
+    "PhotonUnityNetworking.Editor/1.0.0": {
+      "type": "project",
+      "path": "PhotonUnityNetworking.Editor.csproj",
+      "msbuildProject": "PhotonUnityNetworking.Editor.csproj"
+    },
+    "PhotonUnityNetworking.Utilities/1.0.0": {
+      "type": "project",
+      "path": "PhotonUnityNetworking.Utilities.csproj",
+      "msbuildProject": "PhotonUnityNetworking.Utilities.csproj"
+    },
+    "PhotonUnityNetworking.Utilities.Culling.Editor/1.0.0": {
+      "type": "project",
+      "path": "PhotonUnityNetworking.Utilities.Culling.Editor.csproj",
+      "msbuildProject": "PhotonUnityNetworking.Utilities.Culling.Editor.csproj"
+    },
+    "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor/1.0.0": {
+      "type": "project",
+      "path": "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj",
+      "msbuildProject": "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj"
+    },
+    "PunDemos.DemoHubEditor/1.0.0": {
+      "type": "project",
+      "path": "PunDemos.DemoHubEditor.csproj",
+      "msbuildProject": "PunDemos.DemoHubEditor.csproj"
+    },
+    "PunDemos.DemoSlotcarEditor/1.0.0": {
+      "type": "project",
+      "path": "PunDemos.DemoSlotcarEditor.csproj",
+      "msbuildProject": "PunDemos.DemoSlotcarEditor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "BitpackersASMDEF >= 1.0.0",
+      "EmoCompressUtilsASMDEF >= 1.0.0",
+      "HalfFloatASMDEF >= 1.0.0",
+      "PhotonChat >= 1.0.0",
+      "PhotonRealtime >= 1.0.0",
+      "PhotonUnityNetworking >= 1.0.0",
+      "PhotonUnityNetworking.Demos >= 1.0.0",
+      "PhotonUnityNetworking.Editor >= 1.0.0",
+      "PhotonUnityNetworking.Utilities >= 1.0.0",
+      "PhotonUnityNetworking.Utilities.Culling.Editor >= 1.0.0",
+      "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor >= 1.0.0",
+      "PunDemos.DemoHubEditor >= 1.0.0",
+      "PunDemos.DemoSlotcarEditor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dima\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "D:\\UnityProjects\\TheEmperor\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+      "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj"
+            },
+            "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj": {
+              "projectPath": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

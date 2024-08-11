@@ -1,0 +1,783 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\UnityProjects\\TheEmperor\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "D:\\UnityProjects\\TheEmperor\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj",
+        "projectName": "BitpackersASMDEF",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\BitpackersASMDEF.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\BitpackersASMDEF\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj",
+        "projectName": "EmoCompressUtilsASMDEF",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\EmoCompressUtilsASMDEF.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\EmoCompressUtilsASMDEF\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj",
+        "projectName": "HalfFloatASMDEF",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\HalfFloatASMDEF.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\HalfFloatASMDEF\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj",
+        "projectName": "PhotonChat",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonChat.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonChat\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj",
+        "projectName": "PhotonRealtime",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonRealtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj",
+        "projectName": "PhotonUnityNetworking",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonUnityNetworking\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj",
+        "projectName": "PhotonUnityNetworking.Demos",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonUnityNetworking.Demos\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj",
+        "projectName": "PhotonUnityNetworking.Editor",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonUnityNetworking.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonUnityNetworking.Utilities\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities.Culling.Editor",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.Culling.Editor.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonUnityNetworking.Utilities.Culling.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Editor.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj",
+        "projectName": "PunDemos.DemoHubEditor",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoHubEditor.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PunDemos.DemoHubEditor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonRealtime.csproj"
+              },
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj",
+        "projectName": "PunDemos.DemoSlotcarEditor",
+        "projectPath": "D:\\UnityProjects\\TheEmperor\\PunDemos.DemoSlotcarEditor.csproj",
+        "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
+        "outputPath": "D:\\UnityProjects\\TheEmperor\\Temp\\obj\\Debug\\PunDemos.DemoSlotcarEditor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj": {
+                "projectPath": "D:\\UnityProjects\\TheEmperor\\PhotonUnityNetworking.Demos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
